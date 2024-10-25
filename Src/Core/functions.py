@@ -7,4 +7,4 @@ def get_urls(file):
   return urls
 
 def slugify(text):
-  return re.sub(r'[^a-zA-Z0-9 ]', '', text).lower().strip().replace(" ", "-").replace("-+", "-")
+  return re.sub(r'[^a-zA-Z0-9 ]', '', text).lower().strip().replace(" ", "-").replace("--", "-")
